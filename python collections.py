@@ -22,5 +22,8 @@ alma_maters = defaultdict(list)
 for coworker, place in coworkers:
     alma_maters [coworker].append(place)
 
+alma_maters.default_factory = None
+
 print(alma_maters['Rolf'])
 print(alma_maters['Dam'])
+
