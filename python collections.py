@@ -54,3 +54,24 @@ o['Jen'] = 12
 o['Sam'] = 4
 
 print(o)
+
+o.move_to_end('Rolf')
+print(o)
+
+o.popitem('Rolf')
+print(o)
+
+o.move_to_end('Sam', last = False)
+print(o)
+
+
+
+#namedtuple
+
+from collections import namedtuple
+
+accounts = ('checking', 1875)
+Accounts = namedtuple('Account', ['name', 'balance'])
+accounts = Accounts ('checking', 1875)
+print(accounts.name)
+print(accounts)
