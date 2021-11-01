@@ -14,7 +14,7 @@ temperature_counter = Counter(device_temperature)
 print(temperature_counter [14.5])
 
 
-
+#defaultdict
 coworkers = [('Rolf', 'MIT'), ('Jen', 'Oxford'), ('Rolf', 'Cambridge')]
 
 alma_maters = defaultdict(list)
@@ -40,3 +40,17 @@ for person, company in other_coworkers:
     coworker_compaines [person] = company
 print(coworker_compaines [coworker[0]])
 print(coworker_compaines['Rolf'])
+
+
+#orderdict
+
+
+from collections import OrderedDict
+
+o = OrderedDict()
+
+o['Rolf'] = 2
+o['Jen'] = 12
+o['Sam'] = 4
+
+print(o)
