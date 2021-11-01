@@ -75,3 +75,23 @@ Accounts = namedtuple('Account', ['name', 'balance'])
 accounts = Accounts ('checking', 1875)
 print(accounts.name)
 print(accounts)
+
+accounts = ('checking', 1875)
+Accounts = namedtuple('Account', ['name', 'balance'])
+accountnamedtuple = Accounts(*accounts)
+print(accountnamedtuple._asdict()['balance'])
+
+
+#deque
+
+
+from collections import deque
+
+friends = deque(('Sam', 'Ham', 'Fam'))
+friends.append('jose')
+friends.appendleft('Tam')
+print(friends)
+
+friends.pop()
+friends.popleft()
+print(friends)
