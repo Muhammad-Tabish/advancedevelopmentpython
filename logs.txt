@@ -1,0 +1,12 @@
+2021-12-04 04:41:50,155 DEBUG:this is a messsage
+2021-12-04 04:41:50,157 INFO:this will not show up
+2021-12-04 04:41:50,157 WARNING:this will
+2021-12-04 04:41:50,157 CRITICAL:a crictical error occured
+2021-12-04 04:45:25,109 DEBUG    [log.py:10] this is a messsage
+2021-12-04 04:45:25,110 INFO     [log.py:11] this will not show up
+2021-12-04 04:45:25,110 WARNING  [log.py:12] this will
+2021-12-04 04:45:25,111 CRITICAL [log.py:13] a crictical error occured
+04-12-2021  04:53:22 DEBUG    [log.py:11] this is a messsage
+04-12-2021  04:53:22 INFO     [log.py:12] this will not show up
+04-12-2021  04:53:22 WARNING  [log.py:13] this will
+04-12-2021  04:53:22 CRITICAL [log.py:14] a crictical error occured
